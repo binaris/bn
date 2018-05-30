@@ -21,3 +21,12 @@ bn deploy hello
 bn invoke hello
 
 ```
+
+You may want to forward your API key. So add `-e BINARIS_API_KEY` like so:
+
+```bash
+
+docker run --rm -e BINARIS_API_KEY -v $(pwd):/src binaris/bn
+```
+
+
